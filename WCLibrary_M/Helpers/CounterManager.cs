@@ -6,28 +6,31 @@ namespace WCLibrary_M
 {
     public class CounterManager
     {
-        IInputFile source;
-        IOutputFile output;
+        private InputFile source;
+        private OutputFile output;
 
-        public CounterManager(IInputFile s, IOutputFile o)
+        public CounterManager(InputFile s, OutputFile o)
         {
             source = s;
             output = o;
         }
-
+        /*
+         * do series of operations to extract file content
+         * , extract words excluding punctuation into a string
+         * , and count occurances of each unique word in the text content.
+         * Save data content into a file. Save source/output references into db as a record
+         */
         public void HandleCount()
         {
             var textContent = source.ExtractTextFromUrl();
-            source.ExtractWords(textContent);
-            source.CountWords();
-            output.sourceFile = source;
-            if (output.SaveFile()) {
-                Console.WriteLine("Successfully saved to file");
-                if (output.SaveToDB())
-                {
-                    Console.WriteLine("Successfully saved to db");
-                    PeekContent();
-                }
+            if (!string.IsNullOrEmpty(textContent))
+            {
+                source.ExtractWords(textContent);
+                source.CountWords();
+                output.sourceFile = source;
+                Console.WriteLine(output.SaveFile());
+                Console.WriteLine(output.SaveToDB());
+                PeekContent();
             }
             
         }
@@ -40,6 +43,7 @@ namespace WCLibrary_M
                 var newLine = string.Format("{0},{1}", entry.Key, entry.Value);
                 csv.AppendLine(newLine);
             }
+            Console.WriteLine("Test output: ");
             Console.WriteLine(csv.ToString());
         }
         
