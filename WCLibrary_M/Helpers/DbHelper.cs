@@ -7,15 +7,10 @@ namespace WCLibrary_M.Helpers
 {
     public class DbHelper
     {
-        private FileConversionRecord record;
-        public DbHelper(string src, string dest)
-        {
-            record = new FileConversionRecord(src, dest);
-        }
-        public bool SaveToDB()
+        public string SaveToDB(FileConversionRecord record)
         {
             //save to database here 
-            return true;
+            return "Saved to DB";
         }
     }
 }

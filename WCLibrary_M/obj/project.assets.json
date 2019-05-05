@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\WordCounter\\WCLibrary_M\\WCLibrary_M.csproj",
+      "projectUniqueName": "D:\\Projects\\WordCounter_delegates\\WCLibrary_M\\WCLibrary_M.csproj",
       "projectName": "WCLibrary_M",
-      "projectPath": "D:\\Projects\\WordCounter\\WCLibrary_M\\WCLibrary_M.csproj",
+      "projectPath": "D:\\Projects\\WordCounter_delegates\\WCLibrary_M\\WCLibrary_M.csproj",
       "packagesPath": "C:\\Users\\Anvar Tokamov\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\WordCounter\\WCLibrary_M\\obj\\",
+      "outputPath": "D:\\Projects\\WordCounter_delegates\\WCLibrary_M\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -4,9 +4,12 @@ using System.Text;
 
 namespace WCLibrary_M.Models
 {
+    
     public enum Filetypes
     {
-        csv,
-        txt
+        CSV, 
+        TEXT
     }
+
+   
 }

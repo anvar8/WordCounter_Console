@@ -6,10 +6,6 @@ namespace WCLibrary_M.Models
 {
     public class FileConversionRecord
     {
-        public FileConversionRecord()
-        {
-
-        }
         public FileConversionRecord(string srcUrl, string outputUrl)
         {
             Source = srcUrl;

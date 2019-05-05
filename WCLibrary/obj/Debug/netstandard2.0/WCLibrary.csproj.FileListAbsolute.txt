@@ -1,8 +1,0 @@
-D:\Projects\WordCounter\WCLibrary\bin\Debug\netstandard2.0\WCLibrary.deps.json
-D:\Projects\WordCounter\WCLibrary\bin\Debug\netstandard2.0\WCLibrary.dll
-D:\Projects\WordCounter\WCLibrary\bin\Debug\netstandard2.0\WCLibrary.pdb
-D:\Projects\WordCounter\WCLibrary\obj\Debug\netstandard2.0\WCLibrary.csproj.CoreCompileInputs.cache
-D:\Projects\WordCounter\WCLibrary\obj\Debug\netstandard2.0\WCLibrary.AssemblyInfoInputs.cache
-D:\Projects\WordCounter\WCLibrary\obj\Debug\netstandard2.0\WCLibrary.AssemblyInfo.cs
-D:\Projects\WordCounter\WCLibrary\obj\Debug\netstandard2.0\WCLibrary.dll
-D:\Projects\WordCounter\WCLibrary\obj\Debug\netstandard2.0\WCLibrary.pdb
